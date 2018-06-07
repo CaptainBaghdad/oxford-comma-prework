@@ -8,6 +8,8 @@ elsif array.length == 2
  else 
    array.insert(-2, " and ")
    if !array[-1].join(", ")
+     array[-1].join(", ")
+   end
 end 
 
 
