@@ -7,7 +7,7 @@ elsif array.length == 2
  
  else
    ans = array.pop
- array.insert(-2, "and ")
+ array.insert(-1, "and ")
    array[0..-2].join(", ") + ans.to_s
    
 end 
