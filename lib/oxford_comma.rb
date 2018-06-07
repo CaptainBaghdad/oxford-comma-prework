@@ -6,7 +6,7 @@ elsif array.length == 2
  array.join(" and ")
  
  else 
-   array.insert(-3, "and ").join(", ").gsub(//)
+   array.insert(-3, "and ").join(", ")
    
 end 
  
