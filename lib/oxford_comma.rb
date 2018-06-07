@@ -10,9 +10,8 @@ elsif array.length == 2
    
 end 
  
- if !array[-1]
-     array[-1].join(", ")
-   end
+
+  
 
 end
 
