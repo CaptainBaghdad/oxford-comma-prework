@@ -7,7 +7,7 @@ elsif array.length == 2
  
  else 
    array.insert(-2, " and ")
-   if !array[-1].join(", ")
+   if !array[-1]
      array[-1].join(", ")
    end
 end 
